@@ -57,7 +57,7 @@ const Testimonials = () => {
   const loopedTestimonials = [...testimonials, ...testimonials];
 
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-orange-100 py-12">
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800 mt-6 mb-4">
           What <span className="text-orange-500">Clients</span> Say!

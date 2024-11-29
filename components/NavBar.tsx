@@ -30,7 +30,7 @@ export const NavBar = () => {
     }, []);
 
     return (
-        <header className={`transition-all ${scrolled ? "bg-orange-100 shadow-md" : "bg-orange-50"} text-black`}>
+        <header className={`transition-all ${scrolled ? "bg-orange-200 shadow-md" : "bg-orange-100"} text-black`}>
             <div className="container mx-auto px-4">
                 <div className="py-4 flex items-center justify-between">
                     {/* Logo */}
