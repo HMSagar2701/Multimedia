@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import placeholderImage from "@/public/Images/Man with phone.png"; 
+import placeholderImage from "@/public/Images/lastone.png"; 
 
 export const OurAgency = () => {
   return (
