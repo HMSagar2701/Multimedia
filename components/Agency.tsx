@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import placeholderImage from "@/public/Images/Man with phone.png"; // Replace with your actual image path
+import placeholderImage from "@/public/Images/Man with phone.png"; 
 
 export const OurAgency = () => {
   return (
@@ -32,7 +32,7 @@ export const OurAgency = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-          Decisions and optimise your marketing efforts for maximum ROI.Let's turn your data actionable insights. Tailored Solutions for your Business
+          Decisions and optimise your marketing efforts for maximum ROI.Lets turn your data actionable insights. Tailored Solutions for your Business
           </motion.p>
           <motion.p
             className="text-gray-700 mb-6 text-xl"
@@ -40,7 +40,7 @@ export const OurAgency = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Let’s turn your data into actionable insights. Tailored solutions for your business.
+            Lets turn your data into actionable insights. Tailored solutions for your business.
           </motion.p>
           <motion.button
             className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600"

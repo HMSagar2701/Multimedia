@@ -5,7 +5,6 @@ import { Hero } from "@/components/Hero";
 import { LogoTicker } from "@/components/LogoTicker";
 import { Solutions } from "@/components/Solution";
 import Testimonials from "@/components/Testimonials";
-import Image from "next/image";
 
 export default function Home() {
   return (

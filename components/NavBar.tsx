@@ -4,6 +4,7 @@ import LogoImage from "@/public/Images/logoicon.png";
 import MenuIcon from "@/public/icons/menu.svg";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +40,7 @@ export const NavBar = () => {
 
                     {/* Desktop Navigation */}
                     <nav className="hidden sm:flex gap-6 items-center" role="navigation">
-                        <a href="/" className="nav-link text-opacity-100 text-black hover:text-opacity-60 transition">Home</a>
+                        <Link href="/" className="nav-link text-opacity-100 text-black hover:text-opacity-60 transition">Home</Link>
                         <a href="/About" className="nav-link text-opacity-100 text-black hover:text-opacity-60 transition">About Us</a>
                         <a href="/Services" className="nav-link  text-opacity-100 text-black hover:text-opacity-60 transition">Services</a>
                         <a href="/Contact" className="nav-link text-opacity-100 text-black hover:text-opacity-60 transition">Contact Us</a>
@@ -71,7 +72,7 @@ export const NavBar = () => {
                             exit={{ opacity: 0, y: -20 }}
                             transition={{ duration: 0.3, ease: "easeInOut" }}
                         >
-                            <a href="/" className="mobile-nav-link">Home</a>
+                            <Link href="/" className="mobile-nav-link">Home</Link>
                             <a href="/About" className="mobile-nav-link">About Us</a>
                             <a href="/Services" className="mobile-nav-link">Services</a>
                             <a href="/Contact" className="mobile-nav-link">Contact Us</a>
