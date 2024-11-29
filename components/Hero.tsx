@@ -18,8 +18,8 @@ export const Hero = () => {
     };
 
     return (
-        <div className="">
-            <div className="container mx-auto px-6 bg-orange-50"> {/* Orange background applied */}
+        <div className="w-full bg-orange-50"> {/* Full-width orange background */}
+            <div className="container mx-auto px-0"> {/* Removed default padding */}
                 <div className="flex flex-wrap lg:flex-nowrap items-center">
                     {/* Left Section */}
                     <div className="w-full lg:w-1/3 px-4">
